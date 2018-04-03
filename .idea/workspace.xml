@@ -1,60 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba83c541-e091-4a68-b2c7-6ee2a9a2dcfe" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/courses/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/organization/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/organization/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/users/adminx.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/users/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/users/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/users/utils/email_send.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/utils/email_send.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/500.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/active_fail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/course-comment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/course-detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/course-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/course-video.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/forgetpwd.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/org-detail-course.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/org-detail-desc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/org-detail-homepage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/org-detail-teachers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/org-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/org_base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/password_reset.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/send_success.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/teacher-detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/teachers-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/usercenter-base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/usercenter-fav-course.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/usercenter-fav-org.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/usercenter-fav-teacher.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/usercenter-info.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/usercenter-message.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/usercenter-mycourse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP01/settings.py" afterPath="$PROJECT_DIR$/APP01/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP01/urls.py" afterPath="$PROJECT_DIR$/APP01/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/courses/admin.py" afterPath="$PROJECT_DIR$/apps/courses/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/courses/adminx.py" afterPath="$PROJECT_DIR$/apps/courses/adminx.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/courses/models.py" afterPath="$PROJECT_DIR$/apps/courses/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/courses/views.py" afterPath="$PROJECT_DIR$/apps/courses/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/organization/admin.py" afterPath="$PROJECT_DIR$/apps/organization/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/organization/models.py" afterPath="$PROJECT_DIR$/apps/organization/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/organization/views.py" afterPath="$PROJECT_DIR$/apps/organization/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/users/admin.py" afterPath="$PROJECT_DIR$/apps/users/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/users/models.py" afterPath="$PROJECT_DIR$/apps/users/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/users/views.py" afterPath="$PROJECT_DIR$/apps/users/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="$PROJECT_DIR$/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login.html" afterPath="$PROJECT_DIR$/templates/login.html" />
-    </list>
+    <list default="true" id="ba83c541-e091-4a68-b2c7-6ee2a9a2dcfe" name="默认的" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
