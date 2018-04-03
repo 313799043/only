@@ -17,7 +17,8 @@
                             {% for banner in all_banners %}
                             <li>
                                     <a href="{{ banner.url }}">
-                                        <img width="1200" height="478" src="{{ MEDIA_URL }}{{ banner.image }}" />
+{#                                        <img width="1200" height="478" src="{{ MEDIA_URL }}{{ banner.image }}" />#}
+                                        <img width="1200" height="478" src="/media/{{ banner.image }}" />
                                     </a>
                                 </li>
                             {% endfor %}
@@ -66,7 +67,7 @@
 					<div class="module1_1 left">
 						<img width="228" height="614" src="/static/images/module1_1.jpg"/>
 						<p class="fisrt_word">名师授课<br/>专业权威</p>
-						<a class="more" href="{% url 'course:course_list' %}">查看更多课程 ></a>
+{#						<a class="more" href="{% url 'course:course_list' %}">查看更多课程 ></a>#}
 					</div>
 					<div class="right group_list">
 						<div class="module1_2 box">
@@ -75,7 +76,8 @@
                                     {% for banner_course in banner_courses %}
                                     <li>
                                         <a href="{% url 'course:course_detail' banner_course.id %}">
-                                            <img width="470" height="300" src="{{ MEDIA_URL }}{{ banner_course.image }}" />
+{#                                            <img width="470" height="300" src="{{ MEDIA_URL }}{{ banner_course.image }}" />#}
+                                            <img width="470" height="300" src="/media/{{ banner_course.image }}" />
                                         </a>
                                     </li>
                                     {% endfor %}
@@ -87,7 +89,8 @@
                             {% for course in courses %}
                             <div class="module1_{{ forloop.counter|add:2 }} box">
                                 <a href="{% url 'course:course_detail' course.id %}">
-                                    <img width="233" height="190" src="{{ MEDIA_URL }}{{ course.image }}"/>
+{#                                    <img width="233" height="190" src="{{ MEDIA_URL }}{{ course.image }}"/>#}
+                                    <img width="233" height="190" src="/media/{{ course.image }}"/>
                                 </a>
                                 <div class="des">
                                     <a href="{% url 'course:course_detail' course.id %}">
@@ -97,7 +100,7 @@
                                     <span class="fr">学习人数：{{ course.students }}</span>
                                 </div>
                                 <div class="bottom">
-                                    <span class="fl" title="{{ course.course_org.name }}">{{ course.course_org.name }}</span>
+{#                                    <span class="fl" title="{{ course.course_org.name }}">{{ course.course_org.name }}</span>#}
                                     <span class="star fr">{{ course.fav_nums }}</span>
                                 </div>
                             </div>
@@ -115,7 +118,7 @@
 					<div class="module3_1 left">
 						<img width="228" height="463" src="/static/images/module3_1.jpg"/>
 						<p class="fisrt_word">名校来袭<br/>权威认证</p>
-						<a class="more" href="{% url 'org:org_list' %}">查看更多机构 ></a>
+{#						<a class="more" href="{% url 'org:org_list' %}">查看更多机构 ></a>#}
 					</div>
 					<div class="right">
 						<ul>
@@ -134,7 +137,7 @@
                                     </a>
                                 </li>
                             {% endfor %}
-						</ul>
+{#						</ul>#}
 					</div>
 				</div>
 			</div>

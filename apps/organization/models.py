@@ -5,7 +5,7 @@ from datetime import datetime
 from django.db import models
 # from DjangoUeditor.models import UEditorField
 # Create your models here.
-
+from DjangoUeditor.models import UEditorField
 
 class CityDict(models.Model):
     name = models.CharField(max_length=20, verbose_name=u"城市")
@@ -29,7 +29,12 @@ class CourseOrg(models.Model):
     category = models.CharField(default="pxjg", verbose_name=u"机构类别", max_length=20, choices=(("pxjg","培训机构"),("gr","个人"),("gx","高校")))
     click_nums = models.IntegerField(default=0, verbose_name=u"点击数")
     fav_nums = models.IntegerField(default=0, verbose_name=u"收藏数")
+
+
     image = models.ImageField(upload_to="org/%Y/%m", verbose_name=u"logo", max_length=100)
+
+    # image = models.ImageField(upload_to="org/%Y/%m",verbose_name=u"Logo",max_length=100)
+
     address = models.CharField(max_length=150, verbose_name=u"机构地址")
     city = models.ForeignKey(CityDict, verbose_name=u"所在城市",on_delete=models.CASCADE)
     students = models.IntegerField(default=0, verbose_name=u"学习人数")

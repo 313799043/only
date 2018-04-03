@@ -47,8 +47,12 @@ INSTALLED_APPS = [
     'courses',
     'organization',
     'operation',
-    'xadmin',
     'crispy_forms',
+    'captcha',
+    #分页
+    'pure_pagination',
+    #富文本
+     'DjangoUeditor',
 ]
 
 
@@ -67,14 +71,21 @@ ROOT_URLCONF = 'APP01.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
+                # 'django.template.context_processors.debug',
+                # 'django.template.context_processors.request',
+                # 'django.contrib.auth.context_processors.auth',
+                # 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                "django.template.context_processors.i18n",
+                'django.template.context_processors.media',
+                'django.template.context_processors.request',
             ],
         },
     },
@@ -138,6 +149,40 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATICFILES_DIRS = (
+    ('css',os.path.join(STATIC_ROOT,'css').replace('\\','/') ),
+    ('js',os.path.join(STATIC_ROOT,'js').replace('\\','/') ),
+    ('images', os.path.join(STATIC_ROOT, 'images').replace('\\', '/')),
+    ('img', os.path.join(STATIC_ROOT, 'img').replace('\\', '/')),
+    # ('media', os.path.join(STATIC_ROOT, 'media').replace('\\', '/')),
+)
+
 
 TEMPLATE_DIRS = (os.path.join(BASE_DIR,  'templates'),)
 
+
+AUTH_USER_MODEL = "users.UserProfile"
+
+EMAIL_HOST = "smtp.sina.com"
+EMAIL_PORT = 25
+EMAIL_HOST_USER = "13718770169m@sina.cn"
+EMAIL_HOST_PASSWORD = "3499jiajia"
+EMAIL_USE_TLS = False
+EMAIL_FROM = "13718770169m@sina.cn"
+
+
+
+
+#配置分页
+PAGINATION_SETTINGS = {
+    'PAGE_RANGE_DISPLAYED': 2,
+    'MARGIN_PAGES_DISPLAYED': 2,
+
+    'SHOW_FIRST_PAGE_WHEN_INVALID': True,
+}
+
+
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
